@@ -1,0 +1,179 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  background-image: url("./img/background_img2.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.table {
+  width: 100%;
+  max-width: 800px;
+  border-collapse: collapse;
+  margin: 20px auto;
+  background-color: #eafac4;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+  border: 1px solid #c9d5a5;
+  padding: 8px;
+  text-align: center;
+}
+
+.table th {
+  background-color: #d8f295;
+  font-weight: bold;
+}
+
+.table td:hover {
+  background-color: #c0ef7a;
+}
+
+.table tr:hover {
+  background-color: #efdf7a;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit {
+  background-color: #a0457d;
+  border: 1.5px solid #a0457d;
+}
+.edit:hover {
+  border: 1.5px solid #a0457d;
+  background-color: #d19dbd;
+  color: #a0457d;
+}
+
+.dlt {
+  background-color: #f44336;
+  border: 1.5px solid #c4352b;
+}
+.dlt:hover {
+  border: 1.5px solid #c4352b;
+  background-color: #f39a93;
+  color: #c4352b;
+}
+
+.logout {
+  background-color: #f44336;
+  border: 1.5px solid #f44336;
+}
+
+.logout:hover {
+  border: 1.5px solid #f44336;
+  background-color: #f49f99;
+  color: #f44336;
+}
+
+.memberList,
+.login {
+  background-color: #621c70;
+  border: 1.5px solid #621c70;
+}
+.memberList:hover,
+.login:hover {
+  border: 1.5px solid #621c70;
+  background-color: #d670ea;
+  color: #621c70;
+}
+.register {
+  background-color: #4caf50;
+  border: 1.5px solid #4caf50;
+}
+.register:hover {
+  border: 1.5px solid #4caf50;
+  background-color: #aaf3ab;
+  color: #4caf50;
+}
+
+.add_member,
+.add_book {
+  background-color: #85043c;
+  border: 1.5px solid #85043c;
+}
+.add_member:hover,
+.add_book:hover {
+  border: 1.5px solid #85043c;
+  background-color: #e884af;
+  color: #85043c;
+}
+
+.error {
+  color: red;
+  font-size: 24px;
+}
+
+.success {
+  color: green;
+  font-size: 24px;
+}
+
+input,
+select {
+  padding: 4px;
+  font-size: 14px;
+  border: 1px solid #817f7f;
+  border-radius: 4px;
+  background-color: #d0d8b7;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-container input[type="text"] {
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #837a7a;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.search-container select {
+  padding: 8px;
+  border: 1px solid #837a7a;
+  border-radius: 4px;
+}
